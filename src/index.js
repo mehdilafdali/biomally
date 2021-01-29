@@ -3,3 +3,8 @@ import './css/style.css';
 import 'bootstrap'; //import 'bootstrap/dist/js/bootstrap.min.css';
 import 'jquery/dist/jquery.min';
 import 'popper.js/dist/popper.min';
+import '@fortawesome/fontawesome-free/js/all.js'
+
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  });
